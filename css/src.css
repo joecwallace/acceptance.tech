@@ -1,0 +1,28 @@
+@tailwind preflight;
+
+html, body { height: 100%; }
+
+body {
+    @apply .font-sans .text-base .text-grey-darker .leading-normal;
+}
+
+h1 {
+    @apply .text-xxxxl .font-light .leading-huge;
+}
+h2 {
+    @apply .text-xxxxl .font-light .leading-none;
+}
+h3 {
+    @apply .text-xxxl .font-semibold .leading-loose;
+}
+h4 {
+    @apply .text-xxl .font-light .leading-loose;
+}
+h5 {
+    @apply .text-xl .font-semibold .leading-normal;
+}
+h6 {
+    @apply .text-lg .font-normal .leading-normal;
+}
+
+@tailwind utilities;
